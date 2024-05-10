@@ -12,7 +12,7 @@
     setIsLoading(true); 
     const newMessages = [...messages, { text: input, sender: 'user' }];
       try {
-        const response = await fetch('https://portfolio-website-8.onrender.com/', {
+        const response = await fetch('https://portfolio-website-10.onrender.com/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -66,7 +66,7 @@
       setInput('');
 
       try {
-        const response = await fetch('https://portfolio-website-8.onrender.com/', {
+        const response = await fetch('https://portfolio-website-10.onrender.com/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
