@@ -12,14 +12,8 @@
     .about-container{
         height: 100vh; 
         display: flex;
-        background: linear-gradient(
-            45deg,
-            #333333,
-            #4d4d4d,
-            #666666,
-            #808080,
-            #999999
-          );
+        background: #081b29;
+
           /* About.css */
         justify-content: center;
         align-items: center;
@@ -45,7 +39,7 @@
 }
 
 .about-me h1{
-    color: black;
+    color:white;
     margin-bottom:2vw;
 }
 
