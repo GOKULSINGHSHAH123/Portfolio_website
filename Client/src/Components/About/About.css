@@ -1,0 +1,86 @@
+    @keyframes fadeInUp {
+        0% {
+        opacity: 0;
+        transform: translateY(20px);
+        }
+        100% {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+
+    .about-container{
+        height: 100vh; 
+        display: flex;
+        background: linear-gradient(
+            45deg,
+            #333333,
+            #4d4d4d,
+            #666666,
+            #808080,
+            #999999
+          );
+          /* About.css */
+        justify-content: center;
+        align-items: center;
+    }
+  .about img{
+    height: 30vw;
+    animation: fadeInUp 1s ease-in-out both;
+    animation-delay: 0.5s;
+    margin-left: 4vw;
+    border-radius: 2vw;
+}
+
+.about-me{
+    margin-left: 25px;
+    width: 60vw;
+
+}
+.about-me p{
+    margin-top: 1vw;
+    font-size: 1.4vw;
+    color: white;
+    font-weight: 500;
+}
+
+.about-me h1{
+    color: black;
+    margin-bottom:2vw;
+}
+
+@media (max-width:550px){
+
+
+    .about-container{ 
+        height: 100vh;
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+    }
+    .about img{
+        height: 50vw;
+        width: 55vw;
+        animation: fadeInUp 1s ease-in-out both;
+        animation-delay: 0.5s;
+        border-radius: 2vw;
+    }
+    
+    .about-me{
+        margin-left: 25px;
+        width: 80vw;
+    
+    }
+
+    .about-me p{
+        margin-top: 1vw;
+        font-size: 4vw;
+        color: white;
+        font-weight: 500;
+    }
+}
+
+
+
+  

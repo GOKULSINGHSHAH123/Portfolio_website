@@ -1,0 +1,88 @@
+.Contact-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 30px auto;
+
+}
+
+.Contact{
+    display: flex;
+    justify-content:space-evenly;
+}
+.information-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+
+.information-container p{
+    width: 40vw;
+    font-size: 2vw;
+}
+
+.information-container span{
+    width: 40vw;
+    font-size: 1.4vw;
+}
+.enterDetails-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.enterDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.enterDetails input{
+    width: 30vw;
+}
+
+
+#message{
+    color: white;
+    position: relative;
+    height: 17vw;
+    padding-bottom: 20px;
+
+}
+#message ::placeholder{
+    top: 0px;
+}
+
+
+.information{
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+}
+
+
+@media (max-width:550px){
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        margin-left: 8vw;
+        gap: 50px;
+    }
+    .information-container p{
+        width: 90vw;
+        font-size: 5vw;
+    }
+    .information-container span{
+        width: 90vw;
+        font-size: 4vw;
+    }
+    .enterDetails input{
+        width: 80%;
+    }
+    .information{
+        margin-top: 20px;
+    }
+    
+}

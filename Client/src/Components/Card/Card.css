@@ -1,0 +1,32 @@
+.Card {
+    display: flex;
+    width: 18vw;
+    height: 11vh;
+    padding: 2vw;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    border-image-slice: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
+  
+  .Card span {
+    font-size: 1.8vw;
+  }
+
+  @media  (max-width:550px){
+    .Card {
+      display: flex;
+      width: 22vw;
+    }
+    .Card span {
+      font-size: 3vw;
+    }
+  }
+  

@@ -1,0 +1,67 @@
+.SkillCard{
+    width: 43vw;
+    height: 45vh;
+    margin-top: 4vh;
+    padding: 2vw;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 2vw;
+}
+#heading{
+    font-size: 2.3vw;
+    font-weight: 700;
+    margin-bottom: 2vw;
+    color: black;
+}
+.skill-info{
+    font-size:2vw;
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-info p{
+    font-size:1.7vw;
+}
+.skill-progress-bg{
+    width: 100%;
+    height: 0.5rem;
+    overflow: hidden;
+    background: linear-gradient(
+        45deg,
+        #000000,
+        #1a1a1a,
+        #333333,
+        #4d4d4d,
+        #666666
+      );
+      
+    border-radius: 20px;
+    
+}
+
+#skill-progress{
+        width: 0%;
+        background:linear-gradient(20deg,#DF8908 10%,#B415FF 90%);
+        height: 0.5rem;
+        border-radius: 20px;
+        transition: all 0.5s ease-in-out;
+}
+.skill-info-content{
+    display: flex;
+    flex-direction: column;
+}
+@media  (max-width:550px){
+    .SkillCard{
+        width: 80vw;
+        height: 30vh;
+        margin-top: 3vh;
+        margin: auto;
+    }
+    .skill-info p{
+        font-size:3vw;
+    }
+    .skill-info{
+        margin: 2vw;
+    }
+}

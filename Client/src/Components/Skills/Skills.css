@@ -1,0 +1,44 @@
+.skills-container{
+  height: 100vh;
+}
+.skills {
+  width: 30vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1vw;
+  margin-left: 2vw;
+}
+
+.skills :hover{
+  translate: scale(1.03);
+}
+.skills-container h1{
+  margin: 2vw;
+  margin-left: 4vw;
+  font-size: 2.8vw
+
+}
+.skills-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+}
+@media  (max-width:550px) {
+  .skills {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    margin-left: 2vw;
+  }
+
+  .skills-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+  
+  }
+
+}

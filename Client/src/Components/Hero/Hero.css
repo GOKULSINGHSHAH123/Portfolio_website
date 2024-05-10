@@ -1,0 +1,158 @@
+.hero-container{
+    height: 80vh;
+}
+.hero img{
+    border-radius: 50%;
+    height: 20vw;
+    width: 20vw;
+    margin-left: 14vw;
+}
+.hero{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:15vw;
+
+}
+.hero p{
+    width: 35vw;
+    margin-right: 10vw;
+    font-size: 1.5vw;
+    color: black;
+}
+.hero p p{
+    margin-top: 1vh;
+}
+.hero span{
+    font-size: 2vw;
+    color: white;
+    font-weight: 600;
+}  
+.internship p{
+    font-size: 1.2vw;
+
+
+}     
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  2.7vw;
+    gap: 2vw;
+    color: white;
+}
+
+.buttons span{
+    display: flex;
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 700;
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    width: 8vw;
+    cursor: pointer;
+    height: 3vw;
+}
+#resume{
+    font-weight: 700;
+    background: white;
+    color: black;
+    border: 2px solid linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+
+}
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+#name{
+    background: linear-gradient(270deg,#ec9005 10%,#7504a9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 1vw;
+    font-size: 2.4vw;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+}
+.typing{
+    margin-bottom:1vw;
+}
+@media (max-width:550px){
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+
+        justify-content:space-between;
+        align-items: center;
+        gap:15vw;
+    
+    }
+    .hero img{
+        border-radius: 50%;
+        height: 40vw;
+        width: 40vw;
+        margin-left: 7vw;
+    }
+    .hero p{
+        width: 60vw;
+        margin-right: 10vw;
+        font-size: 6vw;
+        color: black;
+    }
+    .hero p p{
+        margin-top: 1vh;
+    }
+    .hero span{
+        font-size: 6vw;
+        color: white;
+        font-weight: 600;
+    }  
+    .internship p{
+        font-size: 3vw;
+    
+    
+    }  
+    #name{
+        font-size: 6vw;
+    } 
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        gap: 2vw;
+        color: white;
+    }
+    
+    .buttons span{
+        display: flex;
+        border-radius: 18px;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-weight: 700;
+        background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+        width: 25vw;
+        height: 10vw;
+    }
+    #resume{
+        font-weight: 700;
+        background: white;
+        color: black;
+        border: 2px solid linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+        cursor: pointer;
+    
+    }
+}

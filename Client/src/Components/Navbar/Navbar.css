@@ -1,0 +1,97 @@
+    .Navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15vh;
+        margin-left: 16vw;
+        height: 20px;
+        margin-bottom: 8vh;
+    }
+
+    .name {
+        font-size: 3vw;
+        display: flex;
+        font-weight: 900;
+    }
+
+    .Navbar p {
+        color: white;
+
+
+    }
+
+    .Navbar span {
+        background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .navbar-menu {
+        display: flex;
+        color: black;
+        align-items: center;
+        font-size: 1.3vw;
+        font-weight: 900;
+        gap: 2vw;
+        margin-left: 1vw;
+        list-style-type: none;
+        cursor: pointer;
+    }
+
+
+    .my-section {
+        display: flex;
+
+    }
+
+    .navbar-menu hr {
+        margin-top: 1vh;
+        background: red;
+        transition-duration: 0.4s;
+
+    }
+
+    .navbar-menu hr:hover {
+        background: red;
+    }
+
+    .anchor-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-mob-open{
+        height: 20px;
+        margin-right: 40px;
+        display: none;
+        align-items: center;
+    }
+    .nav-mob-closed{
+        display: none;
+    }
+
+
+
+    @media (max-width:550px) {
+
+        .Navbar {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5vw;
+
+        }
+
+        .name {
+            font-size: 7vw;
+            font-weight: 900;
+        }
+
+        .nav-mob-open {
+            display: block;
+            font-size: 6vw  ;
+        }
+
+        .navbar-menu {
+            display: none;
+        }
+    }
