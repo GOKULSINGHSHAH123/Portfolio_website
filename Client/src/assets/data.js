@@ -14,8 +14,10 @@ const data = [
     title: "Backend",
     icon: "./assets/images/backend-icon.png", 
     skills: [
-      { skill: "Node.js", percentage: "70%" },
-      { skill: "Express.js", percentage: "65%" }
+      { skill: "Node.js", percentage: "75%" },
+      { skill: "Database Mangagement System", percentage: "80%" },
+      { skill: "SQL", percentage:"80%"},
+      { skill: "Mongodb", percentage:"70%"},
     ]
   },
   {
@@ -24,7 +26,6 @@ const data = [
     skills: [
       { skill: "Git & GitHub", percentage: "85%" },
       { skill: "Visual Studio Code", percentage: "75%" },
-      { skill: "Webpack", percentage: "60%" },
       { skill: "Responsive Design", percentage: "70%" }
     ]
   },
@@ -32,27 +33,27 @@ const data = [
     title: "Natural Language processing",
     icon: "./assets/images/soft-skills-icon.png",
     skills: [
-      { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" }
+      { skill: "Preprocessing ", percentage: "80%" },
+      { skill: "Feature extraction", percentage: "85%" },
+      { skill: "Neural Networks, Transformers", percentage: "75%" }
     ]
   },
   {
-    title: "Computer Vison",
+    title: "Data statistics",
     icon: "./assets/images/soft-skills-icon.png",
     skills: [
-      { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" }
+      { skill: "Numpy, pandas", percentage: "80%" },
+      { skill: "Libraris: NLTK,Spacy", percentage: "85%" },
+      { skill: "Math and statistics", percentage: "75%" }
     ]
   },
   {
-    title: "Generative ai",
+    title: "Machine learning frameworks",
     icon: "./assets/images/soft-skills-icon.png",
     skills: [
-      { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to Detail", percentage: "75%" }
+      { skill: "Tensorflow", percentage: "80%" },
+      { skill: "Pytorch", percentage: "85%" },
+      { skill: "Scikit learn", percentage: "85%" }
     ]
   }
 ];
